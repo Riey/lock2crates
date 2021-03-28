@@ -38,6 +38,7 @@ name = "lock2crates"
 version = "0.1.0"
 dependencies = [
  "cargo-lock",
+ "pico-args",
 ]
 
 [[package]]
@@ -60,6 +61,12 @@ checksum = "10f4872ae94d7b90ae48754df22fd42ad52ce740b8f370b03da4835417403e53"
 dependencies = [
  "ucd-trie",
 ]
+
+[[package]]
+name = "pico-args"
+version = "0.4.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "d70072c20945e1ab871c472a285fc772aefd4f5407723c206242f2c6f94595d6"
 
 [[package]]
 name = "proc-macro2"

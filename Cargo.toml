@@ -6,3 +6,4 @@ edition = "2018"
 
 [dependencies]
 cargo-lock = "6.0.1"
+pico-args = "0.4.0"
